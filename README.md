@@ -1,6 +1,3 @@
-# Terraform Course
-https://www.youtube.com/watch?v=7xngnjfIlK4&ab_channel=DevOpsDirective
-
 Terraform is a tool to manage infraestructure as code(IaC).
 It allows to build, change and version infraestructure safely and efficiently.
 
@@ -35,3 +32,6 @@ We can store the state (a.k.a backend) locally or remotelly
 
 99% of the time in real world projects, the state is stored remotelly either in terraform, or an S3 bucket, etc.
 because it allows colaboratelly work, and you can automate pipelines to run terraform init, plan and apply automatically with git hooks. Also, since the state file contains passwords and sensitive data, its better if its stored remotely and not in local machines.
+
+# Terraform Course
+https://www.youtube.com/watch?v=7xngnjfIlK4&ab_channel=DevOpsDirective
